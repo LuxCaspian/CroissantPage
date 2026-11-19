@@ -79,8 +79,8 @@
   .roles li{height:1.7em}
   .roles li b{color:var(--blue2);font-weight:500}
   @keyframes roll{0%,20%{transform:translateY(0)}25%,45%{transform:translateY(-1.7em)}50%,70%{transform:translateY(-3.4em)}75%,95%{transform:translateY(-5.1em)}100%{transform:translateY(-6.8em)}}
-  .hero p.lead{max-width:600px;margin:22px auto 0;color:var(--muted);font-size:1.12rem}
-  .hero p.lead em.s{color:var(--text);font-size:1.15em}
+  .hero p.lead{max-width:640px;margin:22px auto 0;color:var(--muted);font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,2.6vw,1.65rem);line-height:1.45;letter-spacing:.005em}
+  .hero p.lead em.s{color:var(--blue3);font-size:1.08em}
   .cta{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:38px}
   .btn{position:relative;display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:999px;font-weight:600;font-size:.98rem;border:1px solid var(--line2);background:rgba(20,20,24,.7);color:var(--text);cursor:pointer;transition:background .25s,border-color .25s,box-shadow .25s;will-change:transform}
   .btn:hover{border-color:var(--blue-line);background:var(--bg2)}
